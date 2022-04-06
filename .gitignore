@@ -54,3 +54,35 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+/public/packs
+/public/packs-test
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+/config/database.yml
+/config/credentials.yml.enc
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
+/config/database.yml
+/config/credentials.yml.enc
+.browserslistrc
+test/
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+/log/development.log

@@ -1,0 +1,16 @@
+outside_href:
+  rails_tutorial: "https://www.railstutorial.org/"
+  michael_harlt: "https://www.michaelhartl.com/"
+  rails_tutorial_contact: "https://www.railstutorial.org/contact/"
+  ruby_on_rails: "https://www.rubyonrails.org/"
+  learn_enough: "https://learnenough.com/"
+  rails_tutorial_book: "https://www.railstutorial.org/book"
+  rails_tutorial_screencasts: "https://screencasts.railstutorial.org"
+
+validates:
+  length:
+    mail_max: 50
+    name_max: 255
+    password_min: 6
+  regrex:
+    email: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
