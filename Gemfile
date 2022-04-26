@@ -6,10 +6,12 @@ gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "rails-i18n"
 gem "mysql2", "~> 0.5"
+gem "bcrypt", "~>3.1.13"
 gem "puma", "~> 5.0"
 gem "sass-rails", ">= 6"
 gem "webpacker", "~> 5.0"
 gem "turbolinks", "~> 5"
+gem "byebug"
 gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.4", require: false
 
