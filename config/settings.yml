@@ -18,5 +18,5 @@ validates:
 gravatar:
   base_url: "https://www.gravatar.com/avatar"
   size:
-    default: 80
-    large: 200
+    default: 200
+    large: 50
